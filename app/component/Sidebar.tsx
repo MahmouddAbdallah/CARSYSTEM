@@ -34,7 +34,7 @@ const Sidebar = () => {
         ]
     }]
     return (
-        <aside className="bg-[#000722] w-72 min-h-svh">
+        <aside className="bg-[#000722] w-72 h-svh sticky top-0 z-50">
             <div className=" w-full flex flex-col items-center">
                 <div className="py-5">
                     <Logo className="w-44 h-fit" />

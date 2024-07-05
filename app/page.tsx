@@ -4,11 +4,11 @@ import Sidebar from './component/Sidebar'
 export default function Home() {
 
   return (
-    <div className='flex overflow-y-hidden'>
+    <div className='flex h-full'>
       <Sidebar />
       <div className='flex-1 space-y-10 bg-[#F0F0F0]'>
         <Navbar />
-        <div className='bg-white rounded-t-3xl px-8 py-5 h-full space-y-5'>
+        <div className='bg-white rounded-t-3xl px-8 pt-5 pb-10 space-y-5'>
           <div className="w-full space-y-5">
             <div className='w-full flex justify-between'>
               <h6 className='text-textblue text-lg font-medium'>Criar usuario</h6>
